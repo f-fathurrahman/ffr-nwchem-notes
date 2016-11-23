@@ -1,0 +1,16 @@
+start CO
+
+geometry units angstrom
+  C   0.0      0.0  0.0
+  O   1.27318  0.0  0.0
+end
+
+basis
+  * library 3-21g
+end
+
+dft
+  maxiter 128
+end
+
+task dft optimize

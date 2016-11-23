@@ -1,0 +1,7 @@
+TITLE: LOG.nwo
+FORMULA: CO
+MASS: 28.0101
+TOTAL SPIN: 3
+ATOM:         1   C TYPE: C2     HYB:  2 CHARGE:   0.2794
+ATOM:         2   O TYPE: O2     HYB:  2 CHARGE:  -0.2794
+BOND:         0 START:         1 END:         2 ORDER:   2

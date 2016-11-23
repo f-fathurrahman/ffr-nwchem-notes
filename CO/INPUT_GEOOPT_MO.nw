@@ -1,0 +1,33 @@
+start CO
+
+geometry units angstrom
+  C   0.0      0.0  0.0
+  O   1.27318  0.0  0.0
+end
+
+basis
+  * library 3-21g
+end
+
+dft
+  maxiter 128
+end
+
+driver
+  maxiter 1000
+end
+
+dplot
+  vectors CO.movecs
+  LimitXYZ
+  -5.0 5.0 60
+  -5.0 5.0 60
+  -5.0 5.0 60
+  orbitals view; 1; 7
+  gaussian
+  output MO7.cube
+end
+
+task dft optimize
+task dplot
+
