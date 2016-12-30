@@ -10,6 +10,8 @@ basis
 end
 
 dft
+  direct
+  grid nodisk
   maxiter 128
 end
 
